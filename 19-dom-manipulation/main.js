@@ -22,10 +22,17 @@ function greetRepeatedly() {
 function generateTimestamp() {
   const time = document.getElementById("current-time");
   const now = new Date();
+  // var myVar = "hello";
 
   const hours = now.getHours();
   const minutes = now.getMinutes();
   const seconds = now.getSeconds();
+
+  // function myFunc() {
+  //   debugger;
+  // }
+
+  // myFunc();
 
   time.textContent = `${hours}:${minutes}:${seconds}`;
 }
@@ -38,6 +45,7 @@ function randomBackgroundColor() {
 
 function interactWithWeekdays() {
   const days = document.getElementsByTagName("li");
+
   for (let i = 0; i < days.length; i++) {
     if (days[i].textContent === "Friday") {
       days[i].textContent += "!!!";

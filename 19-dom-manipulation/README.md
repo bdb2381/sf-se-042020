@@ -128,7 +128,7 @@
   - `document.querySelectorAll('.some-shared-class')`
   - `document.getElementsByClassName('some-shared-class')`
 - By Tag
-  - `document.querySelectorAll('#unique-element')`
+  - `document.querySelectorAll('p')`
   - `document.getElementsByTagName('body')[0]`
 - `get` has wider support and maybe better performance than `query`, but is not as versatile
 - Think of adjustable wrench vs. fixed spanner!
