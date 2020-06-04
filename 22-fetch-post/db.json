@@ -1,35 +1,11 @@
 {
   "pokemon": [
     {
-      "id": 28,
-      "name": "fearow",
-      "sprites": {
-        "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png",
-        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/22.png"
-      }
-    },
-    {
       "id": 47,
       "name": "nidoking",
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/34.png"
-      }
-    },
-    {
-      "id": 49,
-      "name": "clefairy",
-      "sprites": {
-        "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png",
-        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/35.png"
-      }
-    },
-    {
-      "id": 50,
-      "name": "clefable",
-      "sprites": {
-        "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png",
-        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/36.png"
       }
     },
     {
