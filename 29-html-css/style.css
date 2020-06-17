@@ -1,0 +1,43 @@
+html {
+  /* font-size: 20px; */
+}
+
+body {
+  margin: 0;
+  background-image: url("https://media.mnn.com/assets/images/2018/05/puppies_dog_bed.jpg.1440x960_q100_crop-scale_upscale.jpg");
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: blue;
+  transition: 3s ease;
+}
+
+nav img {
+  height: 40px;
+}
+
+#characters {
+  display: grid;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 15px;
+  font-size: 15px;
+
+  /* display: flex;
+  flex-direction: row; */
+}
+
+.single-character {
+  text-align: center;
+}
+
+#characters img {
+  width: 100%;
+}
+
+h2 {
+  font-size: 2em;
+}
