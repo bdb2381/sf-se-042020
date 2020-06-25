@@ -5,8 +5,8 @@ import TickerContainer from "./ticker/TickerContainer";
 function App() {
   return (
     <div className="App">
-      {/* <TickerContainer /> */}
-      <Parent />
+      <TickerContainer />
+      {/* <Parent /> */}
     </div>
   );
 }

@@ -2,6 +2,12 @@ import React, { Component } from "react";
 import Ticker from "./Ticker";
 
 class TickerContainer extends Component {
+  // constructor() {
+  //   super();
+
+  //   this.state = { showTicker: true };
+  // }
+
   state = { showTicker: true };
 
   render() {
