@@ -11,6 +11,8 @@ class Api::V1::AuthController < ApplicationController
     end
   end
 
+
+  
   def show
     if logged_in?
       render json: { id: current_user.id, username: current_user.username }
